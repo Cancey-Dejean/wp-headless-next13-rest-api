@@ -14,7 +14,7 @@ const Hero = async () => {
   // const page = pages[0].acf
   const page = await fetchPageComponent(reqUrl, componentPageSlug)
 
-  console.log(page)
+  // console.log(page)
   return (
     <div className="px-5 md:px-10">
       <div className="pt-16 md:pt-24 lg:pt-32">

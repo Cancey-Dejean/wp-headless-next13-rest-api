@@ -1,4 +1,4 @@
-import BlogPost from "@/components/BlogPost"
+import BlogPost from "@/components/RecentBlogs"
 import { reqUrl } from "../config"
 
 const BlogIndex = async () => {

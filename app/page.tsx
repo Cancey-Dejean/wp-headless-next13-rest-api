@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs"
+import RecentBlogs from "@/components/RecentBlogs"
 import CTA from "@/components/CTA"
 import Hero from "@/components/Hero"
 import HowItWorks from "@/components/HowItWorks"
@@ -17,6 +18,7 @@ export default function Home() {
       <OurServices />
       <HowItWorks />
       <AboutUs />
+      <RecentBlogs />
       <CTA />
     </main>
   )

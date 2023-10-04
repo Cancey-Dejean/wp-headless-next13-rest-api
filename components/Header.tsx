@@ -4,7 +4,7 @@ import Link from "next/link"
 export async function Header() {
   const req = await fetch(`${menuUrl}/primary-menu?fields=id,items?`)
   const menu = await req.json()
-  console.log("menu", menu)
+  // console.log("menu", menu)
 
   return (
     <header className="py-4">
