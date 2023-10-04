@@ -9,6 +9,10 @@ module.exports = {
         protocol: "https",
         hostname: "res.cloudinary.com",
       },
+      {
+        protocol: "http",
+        hostname: "stone.local",
+      },
     ],
   },
   // nextConfig,

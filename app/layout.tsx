@@ -1,7 +1,7 @@
-import Header from "@/components/Header"
 import "./globals.css"
 import type { Metadata } from "next"
 import Footer from "@/components/Footer"
+import { Header } from "@/components/Header"
 
 export const metadata: Metadata = {
   title: "Headless Wordpress + Next.js + TailwindCSS  usind WP Rest API",
